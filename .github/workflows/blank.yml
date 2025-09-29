@@ -11,4 +11,7 @@ if __name__ == "__main__":
     app = Application.builder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.run_polling()
+git add requirements.txt
+git commit -m "add requirements"
+git push
 
